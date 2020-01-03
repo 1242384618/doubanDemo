@@ -1,0 +1,51 @@
+@import "//at.alicdn.com/t/font_1370016_260thvaxnu3.css";
+/* 多页面共享的CSS代码 */
+.num{
+    font-size:12px;
+    color:#999;
+}
+.title{
+    text-align: center;
+}
+a{
+    color:#37a;
+    font-size:14px;
+}
+a:hover{
+    color: #fff;
+    background: #37a;
+}
+body{
+    font-family:Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 12px;
+    line-height: 2;
+}
+.hidden{
+    display: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header{
+    width: 950px;
+    margin: 0 auto;
+}
+.btn{
+    background:#42ac52;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+}
+.btn:disabled{
+    background:rgba(66,189,86,.5);
+    cursor:not-allowed;
+}
